@@ -1,2 +1,3 @@
 # Infrastructure_creation_on_AWS_using_Terraform
-Creating a Infrastructure on AWS using Terraform which is Infrastructure as a Code Tool
+Creating a Infrastructure on AWS using Terraform which is Infrastructure as a Code Tool.
+Overview of the project is that we are going to create a VPC(Virtual Private Cloud) with its access point as Internet Gateway. Inside VPC there is a public subnet in two different availability zones and ec2 instance is inside the publice subnets on both the availability zones. Also a load balancer is attached with the internet gateway and the public subnet which balance the load between the two ec2 instance, the load balancer or we can say application load balancer which balances the load with the help of route table.
